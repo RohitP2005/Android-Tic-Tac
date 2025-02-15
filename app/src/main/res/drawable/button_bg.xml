@@ -1,0 +1,18 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state (Orange) -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#0048FF"/> <!-- Orange -->
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+
+    <!-- Default state (Transparent Blue) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#B22196F3"/> <!-- Blue with 60% opacity -->
+            <corners android:radius="12dp"/>
+            <stroke android:width="2dp" android:color="#3F51B5"/>
+        </shape>
+    </item>
+</selector>
